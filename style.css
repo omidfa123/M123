@@ -1,0 +1,69 @@
+/* Typography */
+body {
+  font-family: "Roboto";
+}
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 16px;
+  word-spacing: 34px;
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+}
+.heading::selection {
+  background-color: orangered;
+  color: white;
+}
+p {
+  line-height: 28px;
+  word-spacing: -0.5px;
+}
+/* Forms */
+input {
+  font-family: inherit;
+  border: 1px solid red;
+  border-radius: 4px;
+  outline: none;
+  caret-color: blue;
+}
+input:focus {
+  border: 2px solid red;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+/* Lists */
+ol {
+  list-style: lower-alpha;
+  list-style-type: persian;
+}
+ul {
+  list-style-type: square;
+}
+
+/* Media */
+img {
+  width: 48px;
+  filter: grayscale(50%);
+  object-fit: cover;
+}
+/* Links */
+a:active {
+  color: red;
+}
+a:visited {
+  color: royalblue;
+}
+
+/* Global styles */
+/* padding , margin , overflow ,css reset , position , display */
